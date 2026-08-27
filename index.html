@@ -36,39 +36,42 @@
         border-radius: 0.8rem;
         min-height: 50%;
       }
-      .img {
+      .card__img {
         border-radius: 0.8rem;
         width: 100%;
       }
-      .attribution {
+      .card__attribution {
         font-size: 0.6875rem;
         text-align: center;
       }
-      .title {
+      .card__title {
         font-weight: 700;
         text-align: center;
         font-size: 1.5rem;
       }
-      .text {
+      .card__description {
         font-weight: 400;
         text-align: center;
         font-size: 1.125rem;
       }
-      .attribution a {
+      .card__attribution a {
         color: hsl(228, 45%, 44%);
       }
+
     </style>
   </head>
   <body>
-    <article class="card border">
-      <img src="/images/image-qr-code.png" alt="QR Image" class="img" />
-      <p class="title">Improve your front-end skills by building projects</p>
-      <p class="text">
-        Scan the QR code to visit Frontend Mentor and take your coding skills to
-        the next level
-      </p>
+    <article class="card">
+      <img src="/images/image-qr-code.png" alt="QR Image" class="card__img" />
+      <header>
+        <h1 class="card__title">Improve your front-end skills by building projects</h1>
+        <p class="card__description">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </header>
 
-      <footer class="attribution">
+      <footer class="card__attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a
         >. Coded by <a href="#">Rawda</a>.
